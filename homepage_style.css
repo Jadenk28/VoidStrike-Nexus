@@ -1,0 +1,156 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0;
+    background-color: #2b2e31;
+    color: #e5e5e5;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.titlehead{
+    display: flex;
+    font-family: "Segoe UI", Arial, sans-serif;
+    justify-content: center;
+    color: #00D100;
+    width: 100%;
+    height:  100px;
+
+  
+}
+
+.voidstrike{
+    padding-top: 30px;
+    font-size: 50px;
+
+}
+
+.titleheadDivider {
+margin-top: 0;   
+height: 15px;
+}
+
+nav{
+    width: 100%;
+    padding: 1rem 5%;
+    background: rgba(225, 225, 225, 0.05);
+    border-bottom: 1px solid rgba(225, 225, 225, 0.1);
+    backdrop-filter: blur(15px);
+    margin-bottom: 2rem;
+    font-family: "Segoe UI", Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+  color: black;        /* normal link */
+  text-decoration: none;
+  margin-bottom : 2rem;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-right: 30px;
+}
+.logo{
+    font-size: 1.8rem;
+    font-weight: 800;
+   color: #2EFF2E;
+    letter-spacing: 3px;
+    transition: 0.5s;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0px 0px 2px lightgreen;
+}
+
+.nav-links li a{
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 600px;
+    text-decoration: none;
+    color: #7CFC00;
+    letter-spacing: 1px;
+}
+.nav-links li a:hover{
+    color: white;
+    text-shadow: white;
+}
+
+.btn{
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    font-weight: 600px;
+    font-size: 1rem;
+    background: lightgreen;
+    color:black;
+    box-shadow: 0 0 15px lightgreen;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    
+    background: greenyellow;
+}
+
+.btns{
+    display: flex;
+}
+
+
+.first_pargraph{
+display: flex;
+margin-left : 80px;
+margin-right: 20px;
+background-color: #FFD700;
+width: 520px;
+height: 320px;
+overflow: hidden;
+justify-content: center;
+align-items: center;
+border-radius: 35px;
+box-shadow: 0 0 10px #8a8012;
+margin-top: 1px;
+flex-shrink: 0;
+flex-direction: column;
+
+}
+
+
+.first_pargraph p{
+   font-family: 'Orbitron', sans-serif;
+   margin-left: 30px;
+   font-weight: 750;
+   line-height: 1.5;
+   transform: scaleY(1.2);
+   transform: scaleX(1);
+   letter-spacing: 2px;
+   color: #004d40;
+}
+
+.game_orange{
+    width : 600px;
+    height: 320px;
+    border-radius: 35px;
+    
+    
+    
+
+}
+
+.section1 {
+    display: flex;
+    gap: 20px;
+}
