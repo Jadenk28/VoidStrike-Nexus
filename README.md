@@ -1,2 +1,2 @@
 # VoidStrike-Nexus
-This is a website I'm currently working on that will be aim towards video games
+This is a video game website I'm currently working on. Right now it's a static front-end website utilizing HTML/CSS
